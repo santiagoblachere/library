@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+#main{
+    margin: 0 20%;
+    height: 400px;
+    
+}
+.bookContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card {
+    background-color: black;
+    border: white 1px solid;
+    color: white;
+    
+}
+.card > button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.formContainer {
+    margin: 0 20%;
+    position: absolute;
+    padding: 50px;
+    top: 100px;
+    border: white 5px solid;
+    background-color: black;
+    color: white;
+}
+.newBookButton {
+    width: 500px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    align-self: center;
+    margin-bottom: 50px;
+}
