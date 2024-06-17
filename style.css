@@ -43,3 +43,7 @@ body {
     align-self: center;
     margin-bottom: 50px;
 }
+
+.error {
+    border: 2px solid red;
+}
